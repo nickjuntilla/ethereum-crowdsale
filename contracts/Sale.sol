@@ -156,10 +156,10 @@ contract Sale {
         emergencyFlag = !emergencyFlag;
     }
 
-    /*// fallback function can be used to buy tokens
+    // fallback function can be used to buy tokens
     function () payable
     {
-      purchaseTokens()
-    }*/
+      purchaseTokens();
+    }
 
 }

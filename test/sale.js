@@ -12,7 +12,6 @@ const ethRPC = new EthRPC(new HttpProvider('http://localhost:8545'));
 const ethQuery = new EthQuery(new HttpProvider('http://localhost:8545'));
 
 const Sale = artifacts.require('./Sale.sol');
-const Disbursement = artifacts.require('./Disbursement.sol');
 
 contract('Sale', (accounts) => {
   const saleConf = JSON.parse(fs.readFileSync('./conf/sale.json'));
